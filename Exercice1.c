@@ -12,7 +12,7 @@ int main( ) {
 
    printf( "\nVous avez entré le mot: %s \n", str);
    a = strlen(str);
-   b = sizeof(str); 
+   b = sizeof(str);
    printf("Taille du mot : %d \n", a);
    printf("Taille de la variable : %d \n", b);
    printf("Test : %s \n",&str[2]);
