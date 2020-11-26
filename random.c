@@ -18,7 +18,7 @@ int main (void)
 int my_rand (void)
 {
    static int first = 0;
-   
+
    if (first == 0)
    {
       srand (time (NULL));

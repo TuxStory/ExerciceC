@@ -5,14 +5,14 @@
     [variable]
     maVariable : valeur de la variable.
     &mavariable : adresse de ma variable.
-*/ 
+*/
 
 void inverser_nombres(int nombreA,int nombreB)
 {
     int temporaire = 0;
-    
+
     printf("Fonct Avant : A = %d et B = %d\n", nombreA, nombreB);
-    
+
     temporaire = nombreB;
     nombreB = nombreA;
     nombreA = temporaire;

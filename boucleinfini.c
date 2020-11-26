@@ -4,7 +4,7 @@
 int main()
 {
     int c;
-    
+
     printf("Tapez un carractère :\n (x pour quitter)\n");
     while (1) {
         c = getc(stdin);

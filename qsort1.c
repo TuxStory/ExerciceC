@@ -1,7 +1,7 @@
 /***************************************************************************
 Nom ......... : qsort1.c
 Role ........ : Tri d'un tableau de structure dans l’ordre croissant
-                du champ valeur. 
+                du champ valeur.
 Auteur ...... : Thierry46
 Date creation : 10/2/2008
 Compilation : gcc -Wall -pedantic -std=c99 -o test_qsort1 qsort1.c
@@ -28,7 +28,7 @@ int main(void)
 
    // appel fonction de tri qsort (stdlib.h)
    qsort(tableau, nb_element, sizeof(ELEMENT), qs_tri);
-   
+
    // Impression Après le tri
    (void)puts("Après le tri :");
    for (i=0 ; i<nb_element; i++)
@@ -48,15 +48,15 @@ Parametres .. :
 - ptr2 : pointeur sur le 2{{e}} element
 Retour ........ :
     <0 : le premier element est plus petit que le deuxième,
-         ils sont dans le bon ordre; 
+         ils sont dans le bon ordre;
     =0 : le premier element est égal au deuxième
     <0 : le premier element est plus grand que le deuxième,
          ils ne sont pas dans l'ordre.
 ****************************/
 static int qs_tri(const void *ptr1, const void *ptr2)
-{ 
+{
    int valeur1 = ((ELEMENT *)ptr1)->valeur;
    int valeur2 = ((ELEMENT *)ptr2)->valeur;
-   
+
    return valeur1 - valeur2;
 } // static int qs_tri(...

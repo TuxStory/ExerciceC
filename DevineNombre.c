@@ -29,6 +29,6 @@ int main ( int argc, char** argv )
         else
             printf ("Bravo, vous avez trouve le nombre mystere !!!\n\n");
     } while (nombreEntre != nombreMystere);
-    
+
     return 0;
 }

@@ -4,7 +4,7 @@
 int main(void)
 {
     int nombre;
-    system("clear");    
+    system("clear");
 
     printf("Entrez un nombre: ");
     scanf("%d", &nombre);
