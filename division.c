@@ -17,3 +17,8 @@ int main()
     printf("Resultat3 : %f\n",D);
     exit(0);
 }
+
+/*
+Nous convertissons l'une des deux opérandes en float. Automatiquement C convertira
+l'autre opérande en float et effectuera une division rationnelle.
+*/
