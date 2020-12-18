@@ -17,7 +17,7 @@ int reset_niveau(void)
 
 int augmente_niveau(void)
 {
-    static int niveau = 0;
+    static int niveau = 0; //Valeur Static et ne sera pas détruite.
     niveau += 2;
     return niveau ;
 }
