@@ -29,7 +29,7 @@ int main(void)
 
     printf("Avant : A = %d et B = %d\n", nombreA, nombreB);
     inverser_nombres(nombreA,nombreB);
-    printf("Avant : A = %d et B = %d\n", nombreA, nombreB);
+    printf("Après : A = %d et B = %d\n", nombreA, nombreB);
 
     return 0;
 }
